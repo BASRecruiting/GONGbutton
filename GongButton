@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Play Sound</title>
+</head>
+<body>
+  <button onclick="playSound()">Click Me!</button>
+  <audio id="sound" src="https://raw.githubusercontent.com/BASRecruiting/gongsound/main/gong-bell-129820.mp3"></audio>
+
+  <script>
+    function playSound() {
+      document.getElementById('sound').play();
+    }
+  </script>
+</body>
+</html>
